@@ -12,7 +12,7 @@ export default defineNuxtConfig({
       ],
     }
   },
-  css: ['~/assets/scss/global.scss'],
+  css: ['~/assets/scss/main.scss'],
   vite: {
     css: {
       preprocessorOptions: {
