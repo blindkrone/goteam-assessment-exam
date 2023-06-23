@@ -1,13 +1,19 @@
 /*
  * Font Declaration
-*/ 
+ */ 
 @import 'fonts';
 
 /*
  * CSS reset
-*/ 
+ */ 
+@import 'resets';
 
-* {
-    font-family: 'Arimo', sans-serif;
-    font-style: italic;
-}
+/*
+ * Custom CSS here
+ */ 
+@import 'custom/taskAdd';
+@import 'custom/taskDelete';
+@import 'custom/taskUpdate';
+@import 'custom/taskList';
+@import 'custom/tasks';
+@import 'custom/modal';

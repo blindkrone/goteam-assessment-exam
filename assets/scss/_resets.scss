@@ -1,0 +1,36 @@
+* {
+    font-family: 'Arimo', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEF0F2;
+    overflow-x: hidden;
+}
+
+a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button {
+    background-color: #c2c2c2;
+    border: none;
+    cursor: pointer;
+}
+
+input, textarea, select {
+    outline: none;
+    resize: vertical;
+    border: none;
+}
+
+.wrapper {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}

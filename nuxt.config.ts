@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  // devtools: { enabled: true },
+  devtools: { enabled: true },
   app: {
     head: {
       charset: 'utf-8',
@@ -12,7 +12,10 @@ export default defineNuxtConfig({
       ],
     }
   },
-  css: ['~/assets/scss/main.scss'],
+  css: [
+    '~/assets/scss/main.scss',
+    '@fortawesome/fontawesome-svg-core/styles.css',
+  ],
   vite: {
     css: {
       preprocessorOptions: {
@@ -21,5 +24,8 @@ export default defineNuxtConfig({
         }
       }
     }
-  }
+  },
+  modules: [
+    '@pinia/nuxt',
+  ],
 })

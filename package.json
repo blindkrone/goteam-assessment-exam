@@ -15,6 +15,16 @@
     "sass": "^1.63.5"
   },
   "dependencies": {
-    "@nuxtjs/dotenv": "^1.4.1"
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@pinia/nuxt": "^0.4.11",
+    "click-outside-vue3": "^4.0.1",
+    "pinia": "^2.1.4"
+  },
+  "overrides": {
+    "vue": "latest"
   }
 }

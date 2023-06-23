@@ -1,0 +1,13 @@
+.taskAddUpdate {
+    select {
+        border: none;
+        width :100%;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 8px;
+        margin-bottom: 10px;
+        height: auto;
+        border: 1px solid $thirdTheme;
+        border-radius: 5px;
+    }
+}
