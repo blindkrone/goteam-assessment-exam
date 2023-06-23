@@ -8,6 +8,7 @@ header {
     align-items: center;
     height: 60px;
     padding: 0 20px;
+    box-shadow: 0px 0px 5px #b9b9b9;
 
     a {
         color: #000;
@@ -173,7 +174,9 @@ nav.sidenav {
         background-color: #fff;
         border-radius: 5px;
         position: relative;
+        box-shadow: 0px 4px 3px #dbdbdb;
         padding: 15px;
+        
         h1 {
             font-size: 20px;
             margin-bottom: 5px;
@@ -314,6 +317,7 @@ nav.sidenav {
             border-radius: 5px;
             background-color: #fff;
             position: relative;
+            box-shadow: 0px 4px 3px #dbdbdb;
             
             .edit {
                 position: absolute;
@@ -323,7 +327,7 @@ nav.sidenav {
 
             .introduction_profile {
                 display: flex;
-
+                
                 .img_placeholder {
                     border-right: 1px solid #dbdbdb;
                     border-bottom: 1px solid #dbdbdb;
@@ -407,6 +411,7 @@ nav.sidenav {
                 padding: 20px 0 0;
                 margin-bottom: 10px;
                 border-radius: 5px;
+                box-shadow: 0px 4px 3px #dbdbdb;
                 overflow: hidden;
 
                 h4 {
@@ -424,6 +429,7 @@ nav.sidenav {
                 background-color: #fff;
                 border-radius: 5px;
                 margin-bottom: 10px;
+                box-shadow: 0px 4px 3px #dbdbdb;
                 padding: 20px;
 
                 h4 {
@@ -468,6 +474,7 @@ nav.sidenav {
             .profile_recommendation {
                 background-color: #fff;
                 border-radius: 5px;
+                box-shadow: 0px 4px 3px #dbdbdb;
                 padding: 20px;
 
                 h4 {
