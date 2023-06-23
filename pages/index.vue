@@ -3,7 +3,11 @@
         <div class="slogan">
             <h1>Manage Your Tasks<span>task management empowers efficient organization, prioritization, and tracking to achieve goals with ease</span></h1>
             <NuxtLink to="/tasks">Get Started</NuxtLink>
+
+            <h2>Part 2 - Design Implementation Accuracy Test</h2>
+            <NuxtLink to="/profile">View Here</NuxtLink>
         </div>
+
     </div>
 </template>
 
@@ -35,6 +39,10 @@
                 font-weight: 500;
                 line-height: 30px;
             }
+        }
+
+        h2 {
+            padding: 40px 0 20px;
         }
 
         a {
